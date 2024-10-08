@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "be-capstone-project"
+version = "0.1.0"
+description = "inventory-managment-api"
+authors = ["y"]
+license = "yes"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+djangorestframework-simplejwt = "^5.3.1"
+django = "^5.1.2"
+gunicorn = "^23.0.0"
+djangorestframework = "^3.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
