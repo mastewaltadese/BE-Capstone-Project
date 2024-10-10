@@ -7,7 +7,7 @@ license = "yes"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 djangorestframework-simplejwt = "^5.3.1"
 django = "^5.1.2"
 gunicorn = "^23.0.0"
