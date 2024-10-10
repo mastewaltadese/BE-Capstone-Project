@@ -12,6 +12,7 @@ djangorestframework-simplejwt = "^5.3.1"
 django = "^5.1.2"
 gunicorn = "^23.0.0"
 djangorestframework = "^3.15.2"
+dj-database-url = "^2.2.0"
 
 
 [build-system]
