@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-fkavh_+*&dpmrk4ongq*0&ptwd@f0vo-s9ev##u@#ae^rhbe4n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['your-app-name.onrender.com']
+ALLOWED_HOSTS = ['inventory-management-api.onrender.com']
 
 
 # Application definition
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'inventory_management.inventory_management.wsgi.application'
+WSGI_APPLICATION = 'inventory_management.wsgi.application'
 
 
 # Database
